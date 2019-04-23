@@ -4,7 +4,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: jenkins
+      tag: henokv/jenkins
       pushRemote: true
       registry: easipoc.azurecr.io
 timeout: 60
