@@ -5,5 +5,7 @@ stages:
       dockerfilePath: ./Dockerfile
       buildContext: .
       tag: jenkins
+      pushRemote: true
+      registry: easipoc.azurecr.io
 timeout: 60
 notification: {}
